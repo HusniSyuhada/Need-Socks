@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Need Socks.master.cs" Inherits="Need_Socks.Need_Socks" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+    <title>Need Socks?</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="Header">
+    <div class="Headerdiv">
+        <div class="HeaderLogo">
+            Need Socks?
+        </div>
+        <div class="HeaderMenu">
+            <ul>
+                <li><a href="default.aspx">Home</a></li>
+                <li><a href="product.aspx">Product</a></li>
+                <li><a href="contact.aspx">Contact Us</a></li>
+                <li><a href="about.aspx">About Us</a></li>
+                <li><a href="login.aspx">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+        
+        </asp:ContentPlaceHolder>
+        <footer class="footer"><b>&copy; NeedSocks 2017</b></footer>
+    </div>
+    </form>
+    
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+        </asp:ContentPlaceHolder>
+        
+        </body>
+</html>
