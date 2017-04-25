@@ -39,7 +39,7 @@
             <asp:Button ID="Button1" class="send" runat="server" Text="Send" />
     </fieldset>
     <h2>Find Us From The Map</h2>
-    <div id="googleMap" style="width:500px;height: 174px"350"></div>
+    <div id="googleMap" style="width:1000px;height: 500px"350"></div>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcfw-eQ5at2LlR99kRn10xi3b4Dno6zaw&callback=myMap">
     </script>
 
