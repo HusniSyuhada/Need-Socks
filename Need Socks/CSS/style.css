@@ -53,33 +53,12 @@
 }
 .contact {
     font-size:25px;
-    font-family:Rockwell;
+    font-family:Calibri;
 }
 .table{
     width:auto;
 }
-.txtbox1 {
-    width:500px;
-
-    height:30px;
-}
-.txtbox2{
-    width:500px;
-
-    height:30px;
-}
-.txtbox3{
-    width:500px;
-
-    height:30px;
-}
-.txtbox4{
-    width:500px;
-
-
-}
-.send {
-    background-color:aqua;
+.Send {
     text-decoration-color:#793f0d;
     height:35px;
     width:100px;
@@ -91,4 +70,8 @@ googleMap {
     width: 700px;
     height: 500px;
     border: 2px solid;
+}
+/*validator design*/
+#ValidName {
+    font-family:Rockwell;
 }

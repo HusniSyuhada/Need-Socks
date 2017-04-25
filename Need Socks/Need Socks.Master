@@ -36,7 +36,11 @@
     </form>
     
     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+            <form id="form2" runat="server">
+                </form>
         
+
         </asp:ContentPlaceHolder>
     <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
         </asp:ContentPlaceHolder>
