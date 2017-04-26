@@ -58,6 +58,15 @@ namespace Need_Socks {
         protected global::System.Web.UI.WebControls.TextBox TextEmail;
         
         /// <summary>
+        /// valEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valEmail;
+        
+        /// <summary>
         /// validateEmail control.
         /// </summary>
         /// <remarks>

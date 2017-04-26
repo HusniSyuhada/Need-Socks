@@ -14,14 +14,15 @@
             <td>
                 <asp:Label ID="Name" runat="server" Text="Name :"></asp:Label>
                 <asp:TextBox ID="TextName" width="500px" height="30px" runat="server"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="ValidName" runat="server" ControlToValidate="TextName" ErrorMessage="***Please enter your name***"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator ID="ValidName" runat="server" ControlToValidate="TextName" ErrorMessage="***Please enter your name***" Font-Size="Smaller"></asp:RequiredFieldValidator>
             </td>
                 </tr>
             <tr class="contact">
             <td>
                 <asp:Label ID="Email" runat="server" Text="Email :"></asp:Label>
                 <asp:TextBox ID="TextEmail" width="500px" height="30px" runat="server"></asp:TextBox>
-                 <asp:RegularExpressionValidator ID="validateEmail" runat="server" ErrorMessage="***Please enter a valid email address.***" ControlToValidate="TextEmail" ValidationExpression="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$"  />
+                <asp:RequiredFieldValidator ID="valEmail" runat="server" ControlToValidate="TextEmail" ErrorMessage="***Please enter your email address***" Font-Size="Smaller"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="validateEmail" runat="server" ErrorMessage="***Please enter a valid email address.***" ControlToValidate="TextEmail" ValidationExpression="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$" Font-Size="Smaller"  />
             </td>
                 </tr>
                 <tr class="contact">
