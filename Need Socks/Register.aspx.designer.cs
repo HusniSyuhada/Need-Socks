@@ -10,60 +10,78 @@
 namespace Need_Socks {
     
     
-    public partial class login {
+    public partial class Register {
         
         /// <summary>
-        /// LogUsername control.
+        /// Username control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LogUsername;
+        protected global::System.Web.UI.WebControls.Label Username;
         
         /// <summary>
-        /// TextLogUsername control.
+        /// TextUname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextLogUsername;
+        protected global::System.Web.UI.WebControls.TextBox TextUname;
         
         /// <summary>
-        /// LogPassword control.
+        /// REmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LogPassword;
+        protected global::System.Web.UI.WebControls.Label REmail;
         
         /// <summary>
-        /// TextLogPassword control.
+        /// TextREmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextLogPassword;
+        protected global::System.Web.UI.WebControls.TextBox TextREmail;
         
         /// <summary>
-        /// sendLogin control.
+        /// RPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button sendLogin;
+        protected global::System.Web.UI.WebControls.Label RPassword;
         
         /// <summary>
-        /// litLoginError control.
+        /// TextRPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litLoginError;
+        protected global::System.Web.UI.WebControls.TextBox TextRPassword;
+        
+        /// <summary>
+        /// SendReg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SendReg;
+        
+        /// <summary>
+        /// litRegError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal litRegError;
     }
 }

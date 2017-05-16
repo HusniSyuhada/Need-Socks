@@ -29,12 +29,14 @@
             <td>
                 <asp:Label ID="Subject" runat="server" Text="Subject :"></asp:Label>
                 <asp:TextBox ID="TextSubject" width="500px" height="30px" runat="server"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="validateSubject" runat="server" ControlToValidate="TextSubject" ErrorMessage="***Please enter the subject***" Font-Size="Smaller"></asp:RequiredFieldValidator>
             </td>
                 </tr>
                 <tr class="contact">
             <td>
                 <asp:Label ID="Comment" runat="server" Text="Comment :"></asp:Label>
                 <asp:TextBox ID="TextComment" CssClass="txtbox4" width="500px"  runat="server" Rows="5" TextMode="MultiLine"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="validateComment" runat="server" ControlToValidate="TextComment" ErrorMessage="***Please enter the comment***" Font-Size="Smaller"></asp:RequiredFieldValidator>
             </td>
                 </tr>
                 <tr class="Send">
