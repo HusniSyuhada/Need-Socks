@@ -8,7 +8,7 @@
         <p><asp:TextBox ID="TextLogUsername" width="500px" height="30px" runat="server"></asp:TextBox></p>
 
         <p><asp:Label ID="LogPassword" runat="server" Text="Password :"></asp:Label></p>
-        <p><asp:TextBox ID="TextLogPassword" width="500px" height="30px" runat="server"></asp:TextBox></p>
+        <p><asp:TextBox ID="TextLogPassword" width="500px" height="30px" runat="server" TextMode="Password"></asp:TextBox></p>
 
         <p><asp:Button ID="sendLogin" OnClick="sendLogin_Click" runat="server" Text="Login" /></p>
         <p><asp:Literal ID="litLoginError" runat="server"></asp:Literal></p>

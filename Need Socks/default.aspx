@@ -5,15 +5,15 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <h1 class="H1">Type of Socks Available</h1>  
              
-            <img src="Images/socks1.jpg" class="socksdefault" alt="socks1"  />
+            <img src="ProductImages/socks1.jpg" class="socksdefault" alt="socks1"  />
 
-            <img src="Images/socks2.jpg" class="socksdefault" alt="socks1"  />
+            <img src="ProductImages/socks2.jpg" class="socksdefault" alt="socks1"  />
 
-            <img src="Images/socks3.jpg" class="socksdefault" alt="socks1"  />
+            <img src="ProductImages/socks3.jpg" class="socksdefault" alt="socks1"  />
 
-            <img src="Images/socks4.jpg" class="socksdefault" alt="socks1"  />
+            <img src="ProductImages/socks4.jpg" class="socksdefault" alt="socks1"  />
 
-            <img src="Images/socks5.jpg" class="socksdefault" alt="socks1"  />
+            <img src="ProductImages/socks5.jpg" class="socksdefault" alt="socks1"  />
         
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">

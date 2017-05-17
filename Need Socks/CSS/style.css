@@ -1,4 +1,4 @@
-﻿body {background-image:url(../Images/Socks.jpg);
+﻿body {background-image:url(../ProductImages/Socks.jpg);
 }
 
 .HeaderLogo{
@@ -74,4 +74,12 @@ googleMap {
 /*validator design*/
 #ValidName {
     font-family:Rockwell;
+}
+
+/*About Us*/
+.Description{
+   font-family:Rockwell;
+   font-size:150%;
+   color:black;
+  
 }

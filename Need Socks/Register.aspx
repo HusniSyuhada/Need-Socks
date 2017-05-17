@@ -12,7 +12,7 @@
    
     
         <p><asp:Label ID="RPassword" runat="server" Text="Password :"></asp:Label></p>
-        <p><asp:TextBox ID="TextRPassword" width="500px" height="30px" runat="server"></asp:TextBox></p>
+        <p><asp:TextBox ID="TextRPassword" width="500px" height="30px" runat="server" TextMode="Password"></asp:TextBox></p>
     
         <p><asp:Button ID="SendReg" OnClick="sendReg_Click" runat="server" Text="Register" /></p>
         <p><asp:Literal ID="litRegError" runat="server"></asp:Literal></p>
